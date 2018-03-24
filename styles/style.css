@@ -185,7 +185,7 @@ a#Sign-In:active {
 }
 
 .actived{
-	background:#666;
+	background:#428bca;
 }
 .actived > #Sign-In{
 	background: transparent;
@@ -246,20 +246,25 @@ aside{
 }*/
 
 @media only screen and (max-width: 375px) and (orientation:portrait){
+	
+#container{
+	position: absolute;
+	margin:0;
+}
 	header img{
 		display: none;
 	}
 
-	nav{
-		height: 100%;
-		width: 100%;
-		justify-content: center;
-	}
+		nav{
+			height: 100%;
+			width: 100%;
+			justify-content: center;
+		}
 	
-	nav ul{
-		width: 50%;
-		height: auto;
-	}
+				nav ul{
+					width: 50%;
+					height: auto;
+				}
 	
 	aside{
 		display: none;
