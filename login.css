@@ -1,0 +1,42 @@
+
+form{
+  order:0;
+}
+
+aside{
+  order:3;
+}
+input{
+  display:flex;
+  justify-content:center;
+}
+
+input[type="submit"]{
+  width:70px;
+  padding:5px;
+  margin-top:10px;
+  border-radius: 2px;
+  border: 0px;
+  background: #33b5e5;
+}
+main>a{
+  margin-left:15px;
+  height:100%;
+  display:inline-block;
+  font-size:13px;
+  text-decoration:none;
+  color: #000;
+  order:2;
+  align-content:flex-end;
+}
+
+@media only screen and (max-width: 375px) and (orientation:portrait){
+
+article{
+  display: flex;
+  justify-content: center;
+}
+form{
+  justify-content: center;
+}
+}
